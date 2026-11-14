@@ -436,8 +436,8 @@ export const HIDDEN_SECRETS: SecretMessageItem[] = [
   },
   {
     id: 10,
-    hint: 'A pastel ribbon bow hidden in the scrapbook',
-    location: 'Scrapbook Bow',
+    hint: 'A pastel ribbon bow floating under the starry night sky of the final letter',
+    location: 'Night Sky Ribbon',
     message: "Somewhere in this universe, there's a person smiling because you exist. It's me.",
     icon: '🎀'
   }

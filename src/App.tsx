@@ -7,7 +7,6 @@ import { LoveLetters } from './components/LoveLetters';
 import { MysteryGifts } from './components/MysteryGifts';
 import { FiftyReasons } from './components/FiftyReasons';
 import { LoveButton } from './components/LoveButton';
-import { Scrapbook } from './components/Scrapbook';
 import { HugStation } from './components/HugStation';
 import { ChildhoodRoom } from './components/ChildhoodRoom';
 import { VirtualDate } from './components/VirtualDate';
@@ -141,7 +140,6 @@ export const App: React.FC = () => {
         localStorage.removeItem('wonderland_opened_letters');
         localStorage.removeItem('wonderland_opened_gifts');
         localStorage.removeItem('wonderland_found_secrets');
-        localStorage.removeItem('wonderland_scrapbook');
         localStorage.removeItem('wonderland_entered');
       } catch {
         // ignore
@@ -202,23 +200,20 @@ export const App: React.FC = () => {
           onLoveClicked={() => setLoveClicks(prev => prev + 1)}
         />
 
-        {/* 7. Our Little Scrapbook */}
-        <Scrapbook onSecretFound={handleSecretFound} />
-
-        {/* 8. The Teddy Bear Hug Station */}
+        {/* 7. The Teddy Bear Hug Station */}
         <HugStation onSecretFound={handleSecretFound} />
 
-        {/* 9. The Childhood Dream Room */}
+        {/* 8. The Childhood Dream Room */}
         <ChildhoodRoom onSecretFound={handleSecretFound} />
 
-        {/* 10. The Virtual Date Night */}
+        {/* 9. The Virtual Date Night */}
         <VirtualDate onSecretFound={handleSecretFound} />
 
-        {/* 11. The Mini Love Game */}
+        {/* 10. The Mini Love Game */}
         <MiniGame />
 
-        {/* 12. The Final Secret Love Letter & Grand Surprises */}
-        <FinalLetter />
+        {/* 11. The Final Secret Love Letter & Grand Surprises */}
+        <FinalLetter onSecretFound={handleSecretFound} />
 
         {/* Secret Messages Easter Egg System & Modal */}
         <SecretMessages

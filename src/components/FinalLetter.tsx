@@ -3,7 +3,11 @@ import confetti from 'canvas-confetti';
 import { Heart, Sparkles, Moon, Star, Gift, X } from 'lucide-react';
 import { soundFX } from '../utils/audio';
 
-export const FinalLetter: React.FC = () => {
+interface FinalLetterProps {
+  onSecretFound?: (id: number) => void;
+}
+
+export const FinalLetter: React.FC<FinalLetterProps> = ({ onSecretFound }) => {
   const [isOpenLetter, setIsOpenLetter] = useState(false);
   const [showGrandFinale, setShowGrandFinale] = useState(false);
   const [showSecretBirthdayGift, setShowSecretBirthdayGift] = useState(false);
@@ -75,6 +79,17 @@ export const FinalLetter: React.FC = () => {
           <span className="text-4xl animate-float-slow">🐱💤</span>
           <span className="text-5xl animate-bounce-gentle">🧸💖</span>
           <span className="text-4xl animate-float-reverse">🦋</span>
+          
+          {/* Hidden Secret Easter Egg #10: A pastel ribbon bow */}
+          {onSecretFound && (
+            <button
+              onClick={() => onSecretFound(10)}
+              title="A pastel ribbon bow floating under the night stars..."
+              className="text-3xl hover:scale-125 transition-transform cursor-pointer opacity-70 hover:opacity-100 animate-bounce-gentle ml-2"
+            >
+              🎀
+            </button>
+          )}
         </div>
 
         {/* Section Heading */}

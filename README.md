@@ -24,16 +24,15 @@ A magical, interactive Children's Day surprise website dedicated to Dhruvi.
    - Gift 6: The Secret Gift (Multiverse promise)
 6. **50 Tiny Reasons Why I Adore You**: 50 numbered flip cards with adorable reasons and reveal-all toggle.
 7. **The Interactive Love Button 💗**: Giant pulsating pink heart with 30-50 floating hearts explosion on every tap, pop/heart sounds, and affectionate messages.
-8. **Our Little Scrapbook 📸**: 10 Polaroid memory slots with washi tape, paper clips, captions, and an interactive **Upload Photo / Image URL Replacer** saved in localStorage!
-9. **The Hidden Secret Messages (Easter Egg Hunt)**: 10 hidden clickable secrets scattered across the website, secret journal drawer, and grand **10/10 Trophy Achievement Modal**.
-10. **The Mini Love Game 🎮**: "HOW WELL DO YOU KNOW YOUR SECRET ADMIRER?" 5 playful trivia questions with 100/100 celebration & confetti!
-11. **The Teddy Bear Hug Station 🧸**: Large animated teddy with "Give me a hug", "Give me a kiss", and "Pat my head".
-12. **The Childhood Dream Room 🎠**: Nostalgia room with interactive fairy lights, candy jar, soap bubbles, and toy train.
-13. **The Virtual Date Night 🍦🌙**: 4 interactive dates (Ice cream, Stargazing, Movie night, Chocolate date).
-14. **The Floating Music Corner 🎵**: Animated vinyl record player with visualizer, dreamy synthesized romantic lofi piano melody, and custom MP3 file upload!
-15. **The Final Secret Love Letter 🌙**: Dreamy night sky scene with crescent moon, golden envelope with the full emotional letter, "ONE LAST SURPRISE? 👀" full-screen heart animation, and the Secret Birthday-Style Gift Box!
-16. **Secret Night Mode 🌙**: Toggle to transform wonderland into a dreamy starry midnight theme!
-17. **Floating Mascot Kitty 🐱**: Walks in bottom corner and shares cute thoughts when clicked.
+8. **The Hidden Secret Messages (Easter Egg Hunt)**: 10 hidden clickable secrets scattered across the website, secret journal drawer, and grand **10/10 Trophy Achievement Modal**.
+9. **The Mini Love Game 🎮**: "HOW WELL DO YOU KNOW YOUR SECRET ADMIRER?" 5 playful trivia questions with 100/100 celebration & confetti!
+10. **The Teddy Bear Hug Station 🧸**: Large animated teddy with "Give me a hug", "Give me a kiss", and "Pat my head".
+11. **The Childhood Dream Room 🎠**: Nostalgia room with interactive fairy lights, candy jar, soap bubbles, and toy train.
+12. **The Virtual Date Night 🍦🌙**: 4 interactive dates (Ice cream, Stargazing, Movie night, Chocolate date).
+13. **The Floating Music Corner 🎵**: Animated vinyl record player with visualizer, dreamy synthesized romantic lofi piano melody, and custom MP3 file upload!
+14. **The Final Secret Love Letter 🌙**: Dreamy night sky scene with crescent moon, golden envelope with the full emotional letter, "ONE LAST SURPRISE? 👀" full-screen heart animation, and the Secret Birthday-Style Gift Box!
+15. **Secret Night Mode 🌙**: Toggle to transform wonderland into a dreamy starry midnight theme!
+16. **Floating Mascot Kitty 🐱**: Walks in bottom corner and shares cute thoughts when clicked.
 
 ---
 
