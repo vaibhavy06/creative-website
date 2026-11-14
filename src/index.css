@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF9EBC;
+  border-radius: 9999px;
+  border: 2px solid #FFF8ED;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B8B;
+}
+
+/* Handwritten font class helpers */
+.font-handwriting {
+  font-family: 'Dancing Script', cursive;
+}
+.font-title {
+  font-family: 'Playfair Display', serif;
+}
+.font-bubble {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Glassmorphism */
+.glass-pink {
+  background: rgba(255, 214, 231, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.glass-white {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.glass-night {
+  background: rgba(43, 30, 56, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 158, 188, 0.2);
+}
+
+/* Polaroid tilt & shadows */
+.polaroid-shadow {
+  box-shadow: 0 10px 25px -5px rgba(255, 110, 150, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+/* Sparkle animation */
+@keyframes glitter {
+  0%, 100% { opacity: 0.2; transform: scale(0.6) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+.glitter-sparkle {
+  animation: glitter 3s ease-in-out infinite;
+}
+
+/* Washi tape */
+.washi-tape {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 90px;
+  height: 24px;
+  background-color: rgba(255, 182, 193, 0.65);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  clip-path: polygon(4% 0%, 96% 0%, 100% 100%, 0% 100%);
+  z-index: 10;
+}
+
